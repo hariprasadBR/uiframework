@@ -7,5 +7,11 @@ public class getTitle {
 	
 	WebDriver driver = new ChromeDriver();
 	
+	public void launchurl() {
+		
+		this.driver.get("https://www.facebook.com/reg");
+		driver.manage().window().maximize();
+	}
+	
 
 }
