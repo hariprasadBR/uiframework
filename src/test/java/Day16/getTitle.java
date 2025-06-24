@@ -11,8 +11,15 @@ public class getTitle {
 		
 		this.driver.get("https://www.facebook.com/reg");
 		driver.manage().window().maximize();
+
 		driver.getCurrentUrl();
-		}
+		
+
+		driver.getTitle();
+	}
+		
+		
+	}
 	
 
-}
+
